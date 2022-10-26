@@ -1,4 +1,4 @@
-.main{
+.main {
   width: 600px;
   display: flex;
   justify-content: space-between;
@@ -11,19 +11,20 @@
   border-radius: 10px 10px;
   font-size: 1.25rem;
 }
-.messageStatus{
-  font-family: 'Gilroy';
+.messageStatus {
+  font-family: "Gilroy";
   font-weight: 500;
   color: rgb(6, 212, 85);
   text-align: center;
 }
-.err{
-  font-family: 'Gilroy';
+.err {
+  font-family: "Gilroy";
   font-weight: 500;
   color: red;
   text-align: center;
 }
 .is-error {
+  outline: none;
   box-shadow: 0 2px 4px red;
   border-color: red;
 }
@@ -33,10 +34,12 @@
   border-color: rgb(22, 130, 192);
   border: solid rgb(22, 130, 192);
 }
-.borderInput:focus {
+input:hover {
   outline: none;
   box-shadow: 0 2px 4px rgb(22, 130, 192);
   border-color: rgb(22, 130, 192);
   border: solid rgb(22, 130, 192);
 }
-
+input{
+  border: 0.5px solid rgb(135, 184, 185);
+}
