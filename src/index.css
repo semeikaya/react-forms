@@ -1,13 +1,42 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.main{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 15px;
+}
+.main input {
+  flex: 1;
+  margin-right: 15px;
+  border-radius: 10px 10px;
+  font-size: 1.25rem;
+}
+.messageStatus{
+  font-family: 'Gilroy';
+  font-weight: 500;
+  color: rgb(6, 212, 85);
+  text-align: center;
+}
+.err{
+  font-family: 'Gilroy';
+  font-weight: 500;
+  color: red;
+  text-align: center;
+}
+.is-error {
+  box-shadow: 0 2px 4px red;
+  border-color: red;
+}
+.borderInput {
+  outline: none;
+  box-shadow: 0 2px 4px rgb(22, 130, 192);
+  border-color: rgb(22, 130, 192);
+  border: solid rgb(22, 130, 192);
+}
+.borderInput:focus {
+  outline: none;
+  box-shadow: 0 2px 4px rgb(22, 130, 192);
+  border-color: rgb(22, 130, 192);
+  border: solid rgb(22, 130, 192);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
